@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: New Material
+  m_Shader: {fileID: 4800000, guid: 76a2ed259057cf145a1fdf2af67a1243, type: 3}
+  m_ShaderKeywords: _USEMETALLICMAP_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - <noninit>:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FurTex:
+        m_Texture: {fileID: 2800000, guid: e66959bd0856f254980752b922c1d10a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 7b9eae9a48fa0bd4185cd0af03e33dd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 067013288c1cc3c4ebe302d193134ae6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: e66959bd0856f254980752b922c1d10a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: bc5d39330eb406946aeb9e19e6e47422, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Occlusion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stencil:
+        m_Texture: {fileID: 2800000, guid: cbdb818df78601342b93bee5a2423aef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - <noninit>: 0.256
+    - _Alpha: 0.065
+    - _Blur: 0.348
+    - _BlurAmount: 0.0005
+    - _Brightness: 0.94
+    - _BumpScale: 1
+    - _CutOff: 0.509
+    - _Cutoff: 0.01
+    - _FurLength: 0.13
+    - _Glossiness: 1
+    - _Intensity: 0.661
+    - _Metallic: 0.84
+    - _Shadow: 1.13
+    - _Shininess: 3.2
+    - _Smooth: 0
+    - _SmoothCut: 0.124
+    - _Thickness: 0.443
+    - _UseMetallicMap: 1
+    - blurSizeX: 0
+    - blurSizeY: 0
+    - hstep: 5.85
+    - radius: 100
+    - resolution: 800
+    - vstep: 0
+    m_Colors:
+    - <noninit>: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.28676468, g: 0.28676468, b: 0.28676468, a: 0.015686275}
+    - _FurDirection: {r: 3.28, g: 3.55, b: 0.29, a: 0}
+    - _FurLength: {r: 0.05, g: 0.05, b: 0.05, a: 0}
+    - _SpecColor: {r: 0, g: 0.04827571, b: 1, a: 1}
